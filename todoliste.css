@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #a7c4d1;
+  flex-grow: 10px;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  color: white;
+}
+.select {
+  margin-top: 23px;
+  width: 63vh;
+  height: 8vh;
+  border: none;
+}
+
+.chxselect {
+  margin-top: 23px;
+  width: 63vh;
+  height: 8vh;
+}
+
+.bt {
+  border: none;
+  background-color: yellow;
+  width: 15vh;
+  height: 8vh;
+  margin-top: 23px;
+}
+.dem {
+  display: flex;
+  flex-direction: column;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
